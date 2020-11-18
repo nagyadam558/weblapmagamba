@@ -1,16 +1,17 @@
-* {box-sizing: border-box;}
+
 
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color:lightslategrey;
-  
-}
+}  
+
 
 .bevezeto
 {
   font-size:20px;
 }
+
 .tablazat
 {
   border:20px;
@@ -59,4 +60,11 @@ body {
   .header-right {
     float: none;
   }
+
+
+.szamito
+{
+  
+}
+
 }

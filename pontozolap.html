@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title> A Neumann-elvű számítógépek</title>
+    <title> Érettségi pontozó oldal</title>
 </head>
 <body>
 
 <div class="header">
-  <a href="index.html" class="logo">A Neumann-elvű számítógépek</a>
+  <a href="index.html" class="logo">Érettségi pontozó oldal</a>
   <div class="header-right">
-    <a class="active" href="index.html">Főoldal</a>
+    <a  href="index.html">Főoldal</a>
     <a href="erettsegi.html">Érettségi követelmények</a>
-    <a href="pontozolap.html">Pontozólap</a>
+    <a href="pontozolap.html" class="active">Pontozólap</a>
   </div>
+</div>
+
+  <div class="asd">
+    <form>
+       Gyakorlati pontok száma: <input type="text" name="num1" min="12" max="120"><br>
+       Szóbeli pontok száma: <input type="text" name="num2" min="3" max="30"><br>
+       Összesen: <input type="text" name="sum"><br>
+       <input type="button" value="Összead" onclick="calcSum()">
+   </form>
+    
+   <script>
+       function calcSum() {
+           let num1 = document.getElementsByName("num1")[0].value;
+           let num2 = document.getElementsByName("num2")[0].value;
+           let sum = Number(num1) + Number(num2);
+           document.getElementsByName("sum")[0].value = sum;
+       }
+      </script>
+      
+      

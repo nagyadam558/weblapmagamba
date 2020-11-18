@@ -11,8 +11,8 @@
 <div class="header">
   <a href="index.html" class="logo">Számítógép felépítése</a>
   <div class="header-right">
-    <a class="active" href="#home">Főoldal</a>
-    <a href="erettsegi.html">Érettségi követelmények</a>
+    <a class="active" href="index.html">Főoldal</a>
+    <a  href="erettsegi.html">Érettségi követelmények</a>
     <a href="pontozolap.html">Pontozólap</a>
   </div>
 </div>
@@ -20,7 +20,53 @@
 <div style="padding-left:20px">
   <h1>Bevezetés</h1>
   <p class="bevezeto">Ezen a weblapon a számítógépek felépítéséről szóló érettségi tételről olvashatsz.</p>
-  <p></p>
+  <p>A számítógép apalegységei:
+    1. processzor,
+    2. memória,
+    3. a be- és kimeneti egységek illesztő áramkörei.
+    
+    
+    <p>A processzor (CPU= Central Processing Unit) a számítógép központi feldolgozó egysége.
+    
+    A CPU feladatai:
+    1. Vezérli a számítógép működését, a memóriában tárolt program alapján.
+    2. Aritmetikai és logikai műveleteket végez.</p>
+    
+    Logikai műveletek: TAGADÁS, ÉS, VAGY, KIZÁRÓ-VAGY...
+    Aritmetikai műveletek: összeadás, kivonás, szorzás, osztás....
+    
+    A CPU tehát az agy. Tud számolni és irányítani.
+    Ugyanakkor csak azt csinálja, ami a programban le van írva. Azt viszont gyorsan és megbízhatóan.<br>
+    
+     <img src="szamito.jpg" class="szamito">
+   <p> A memória tárolja a programot és az adatokat.
+    
+    A be- és kimeneti egységek illesztő áramkörei (pl. videó kártya) lehetővé teszik a prifériák (be- és kimeneti egységek) csatlakoztatását.
+    A perifériák a számítógép központi egységéhez kívülről csatlakozó eszközök, amelyek az adatok ki- vagy bevitelét teszik lehetővé.
+    A memória tárolja a számítógép működéséhez szükséges programokat és adatokat. A memóriában az adatokat sorszámozott rekeszekben tárolják. Egy adott rekesz sorszámát memóriacímnek nevezzük. A memória legkisebb címezhető egysége a memóriarekesz. A memóriarekeszek száma határozza meg a memória méretét (kapacitását). A memória kapacitásának mérőszáma a byte. (KB, MB, GB) A memóriacímek továbbítása a címbuszon történik. Azt az időtartamot, amely az olvasási parancs kiadása és az információ megjelenése között eltelik, hozzáférési (elérési) időnek nevezzük és nanosecundumban (ns) mérjük.
+    <h2>Memória funkciói</h2>
+    A személyi számítógépekben 3 alapvető memória típust különböztetünk meg:
+
+1. Operatív tár
+2. Cache
+3. ROM-BIOS
+További memóriák találhatók a periféria illesztő (csatoló) kártyákon és a perifériákban.
+
+Operatív tár
+Nagy kapacitású, de viszonylag lassú írható-olvasható memória (RAM). Tartalmazza a háttértárolókról és a beviteli perifériákról beolvasott programokat és adatokat. A processzor a operatív memóriában található programutasításokat hajtja végre, és az itt található adatokkal végzi el a kijelölt műveleteket. Pl. Szövegszerkesztésnél: A szövegszerkesztő program utasításait hatja végre a processzor. A memóriában tárolja a felhasználó által begépelt szöveget. Minden bevitt adat először a RAM-ba íródik, és ott kerül feldolgozásra. Itt helyezkednek el és ezen a területen dolgoznak az aktuálisan működő programok is.
+
+Cache
+A gyorsítótár (cache memory) kis kapacitású, de gyors írható-olvasható memória (RAM). A processzor sokkal gyorsabban képes dolgozni, mint operatív memória. A gyorsítótár ugyan kis kapacitású, de képes rövid elérési idő alatt a processzor számára biztosítani a szükséges adatokat. A gyorsítótár a processzor és az operatív memória között helyezkedik el a gyakran használt utasításokat, adatokat tartalmazza.
+
+A gyorsítótár típusai:
+
+Belső (első szintű, L1, Level1) cache: ami a processzorral egy tokban,
+Külső (második szintű, L2, Level2) cache: az alaplapon helyezkedik el,
+ROM-BIOS
+A bekapcsolás után lefutó tesztprogramot és az alapvető hardverkezelő rutinokat tartalmazó, alaplapon elhelyezett csak olvasható memória (ROM). Ez tartalmazza a setup programot is, amivel módosíthatjuk a CMOS RAM tartalmát.<br>
+<img src="memoria.jpg" class="memoria">
+   
+    </p>
 </div>
 
 </body>
