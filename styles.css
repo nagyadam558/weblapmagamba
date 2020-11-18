@@ -67,3 +67,9 @@ body {
 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.tg 
+{
+  float:center;
+  margin:right;
+  border:3px solid black;
+}
